@@ -16,7 +16,7 @@
       
       <style>
       h1 {
-          padding-top: 0.25cm;
+          padding-top: 0.01cm;
       }
       body {
           
@@ -110,7 +110,9 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <script type="text/javascript">
        $(document).ready(function(){
-        $('carousel-example-generic').carousel();
+        $('carousel-example-generic').carousel({interval:3000})
+        ;
+            $('carousel-example-generic').carousel('cycle');
         });
     </script>
 
@@ -118,11 +120,11 @@
         
         
         
-        
+       
 <ul class="table-view">
   <li class="table-view-cell media">
     <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
+      <img class="media-object pull-left" src="german-machine-gun.jpg">
       <div class="media-body">  
           
           
@@ -135,7 +137,7 @@
   </li>
   <li class="table-view-cell media 2">
     <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
+      <img class="media-object pull-left" src="happyness.jpg">
       <div class="media-body2">
           Number 2: Domesticated Child
         <p>
@@ -145,7 +147,7 @@
   </li>
   <li class="table-view-cell media 3">
     <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
+      <img class="media-object pull-left" src="maxresdefault.jpg">
       <div class="media-body3">
         Number 3: Sit down 5
         <p></p>
